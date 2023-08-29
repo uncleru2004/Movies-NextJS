@@ -8,7 +8,7 @@ export default function Movies() {
   async function fetcher(value) {
     console.log(value);
     const query = {
-      url: "http://www.omdbapi.com/?apikey=",
+      url: "https://www.omdbapi.com/?apikey=",
       key: "259c46a8",
     };
 
