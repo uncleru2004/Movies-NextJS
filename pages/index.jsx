@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import RenderCard from "../components/RenderCard";
+//import fetcher from "../components/fetcher";
 
 export default function Movies() {
   const [value, setValue] = useState(""),
